@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Patatap Sounds</title>
-	<script type="text/javascript" src="paper-full.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.28/howler.js"></script>
-	<link rel="stylesheet" type="text/css" href="circles.css">
-	
-	<style>
-		body {
-			background-color: #000000; 
-		}
-	</style>
-
-	<script type="text/paperscript" canvas="myCanvas">
 	var circles = [];
 
 	// Howler JS for sounds
@@ -193,11 +178,3 @@
 			circles[i].scale(.9);
 		}
 	}
-	</script>
-</head>
-<body>
-	<canvas id="myCanvas" resize></canvas>
-	<h1 style="color: white; text-align: center; position: absolute; width: 100%; top: 45%;">Welcome to Patatap!</h1>
-	<p style="color: white; text-align: center; position: absolute; width: 100%; top: 50%; font-size: 19px;">Press Letter Keys to Start Playing</p>
-</body>
-</html>
